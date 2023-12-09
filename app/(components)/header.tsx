@@ -16,14 +16,17 @@ const Header = () => {
                                     alt="Picture of the author"/>
                     </Link>
                 
-                    <ul className='flex items-center gap-6 text-m font-medium '>
+                    <ul className='hidden lg:flex items-center gap-6 text-m font-medium '>
                         <li><DropDown label = "О студии" showIcon = {true}/></li>
                         <li><DropDown label = "Расписание и цены" showIcon = {true}/></li>
                         <li><DropDown label = "Группы" showIcon = {false}/></li>
                         <li><DropDown label = "Ресурсы" showIcon = {true}/></li>
                         <li><DropDown label = "Контакты" showIcon = {false}/></li>
                         <button className='p-4 text-white rounded bg-cta-blue'>Запись</button>
-                    </ul>       
+                    </ul>
+                    <svg className=" lg:hidden ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z" />
+                     </svg>       
              </nav>
         </header>
     );
