@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image'
 import DropDown from './(header)/dropdown';
+import CtaButton from './(buttons)/cta-button';
 
 const Header = () => {
     return (
@@ -22,7 +23,7 @@ const Header = () => {
                         <li><DropDown label = "Группы" showIcon = {false}/></li>
                         <li><DropDown label = "Ресурсы" showIcon = {true}/></li>
                         <li><DropDown label = "Контакты" showIcon = {false}/></li>
-                        <button className='p-4 text-white rounded bg-cta-blue'>Запись</button>
+                        <CtaButton text='Запись' size='m'/>   
                     </ul>
                     <svg className=" lg:hidden ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z" />

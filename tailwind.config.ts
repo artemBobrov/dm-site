@@ -15,10 +15,21 @@ const config: Config = {
       },
       colors:{
           'cta-blue': '#2264E7',
+          'primary-blue-light': '#0B3E84'
       },
       borderRadius:{
         '10xl': '44px',
       },
+      boxShadow: {
+        'solid': '0 2px 0 0 rgba(11, 62, 132, 1)',
+        'hover-solid': '0 4px 0 0 rgba(11, 62, 132, 1)',
+        'active-solid': '0 0 0 0 rgba(11, 62, 132, 1)'
+      }
+    },
+  },
+  variants: {
+    extend: {
+      boxShadow: ['hover', 'active'], // Enable hover variant for boxShadow
     },
   },
   plugins: [],
