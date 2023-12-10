@@ -15,7 +15,9 @@ const config: Config = {
       },
       colors:{
           'cta-blue': '#2264E7',
-          'primary-blue-light': '#0B3E84'
+          'primary-blue-light': '#0B3E84',
+          'blue-gray-medium': '#687288',
+          'blue-black-80':"#666F84"
       },
       borderRadius:{
         '10xl': '44px',
