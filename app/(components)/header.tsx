@@ -8,13 +8,13 @@ import CtaButton from './(buttons)/cta-button';
 
 const Header = () => {
     return (
-        <header className='flex justify-center items-center border-solid border-b p-5'>
+        <header className='sticky top-0 z-50 bg-white flex justify-center items-center border-solid border-b p-5'>
             <nav className='flex justify-between items-center max-w-screen-xl w-full'>
                     <Link href='/'> 
                     <Image src="/images/Logo_Type=Horizontal.svg"
-                                    width={300}
-                                    height={500}
-                                    alt="Picture of the author"/>
+                            width={260}
+                            height={500}
+                            alt="Picture of the author"/>
                     </Link>
                 
                     <ul className='hidden lg:flex items-center gap-6 text-m font-medium '>
